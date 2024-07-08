@@ -4,6 +4,7 @@
 
 * {
     margin: 0;
+    cursor: default;
 }
 
 body {
@@ -26,8 +27,19 @@ li:hover {
     transform: scale(1.1);
 }
 
+.discordButton {
+    color: #fff;
+}
+
+.discordButton:hover {
+    color: rgb(21, 154, 236);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 footer div nav ul li a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 footer nav li {
@@ -51,6 +63,7 @@ footer nav a:hover{
 .second a {
     text-decoration: none;
     color: #138104;
+    cursor: pointer;
 }
 
 .second a:hover{
@@ -104,6 +117,10 @@ img {
     height: 60px;
 }
 
+div div img {
+    cursor: pointer;
+}
+
 div div img:hover {
     transform: scale(1.15);
 }
@@ -132,6 +149,7 @@ div div h2 {
 
 .slash {
     color: #fff;
+    cursor: default;
 }
 
 .logo {
