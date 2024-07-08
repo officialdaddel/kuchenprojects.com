@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background: url('../img/background.png');
+}
+
+footer {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-block-end: 0px;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+footer div nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer nav a{
+    color: #fff;
+    text-decoration: 0;
+}
+
+footer nav a:hover{
+    color: rgb(21, 154, 236);
+}
+
+.footer p{
+    color: #fff;
+}
+
+.second a {
+    text-decoration: none;
+    color: #138104;
+}
+
+.second a:hover{
+    text-decoration: underline;
+}
+
+.title {
+    font-family: 'Oswald';
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-size: 100px;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container div{
+    align-items: center;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+div div h1{
+    color: #fff;
+    text-align: center;
+}
+
+div div p {
+    text-align: center;
+    margin: 15px;
+    line-height: 10px;
+}
+
+p {
+    color: white;
+}
+
+.box {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+
+img {
+    width: 160px;
+    height: 60px;
+}
+
+div div img:hover {
+    transform: scale(1.15);
+}
+
+div div h2 {
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+}
+
+.description {
+    font-size: 15px;
+    font-family: 'Montserrat';
+    padding: 10px;
+    line-height: 30px;
+}
+
+.question {
+    font-size: 18px;
+    font-family: 'Roboto Mono';
+    padding: 10px;
+    line-height: 20px;
+    font-style: italic;
+}
+
+.slash {
+    color: #fff;
+}
+
+.logo {
+    margin: 50px;
+    width: 1000px;
+    height: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
